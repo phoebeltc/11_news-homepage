@@ -1,14 +1,13 @@
 
+import Header from "../Header/Header";
 
 function App() {
   return (
     <div className="App">
-
-    Home
-    New
-    Popular
-    Trending
-    Categories
+    <Header />
+    <div>
+    {/* Topic */}
+    <div>
 
     The Bright Future of Web 3.0?
 
@@ -16,7 +15,12 @@ function App() {
     But is it really fulfilling its promise?
 
     Read more
+      
+    </div>
 
+
+    {/* New */}
+    <div>
     New 
 
     Hydrogen VS Electric Cars
@@ -28,6 +32,12 @@ function App() {
     Is VC Funding Drying Up?
     Private funding by VC firms is down 50% YOY. We take a look at what that means.
 
+    </div>
+
+    </div>
+    
+    {/* Article */}
+    <div>
     01
     Reviving Retro PCs
     What happens when old PCs are given modern upgrades?
@@ -39,6 +49,11 @@ function App() {
     03
     The Growth of Gaming
     How the pandemic has sparked fresh opportunities.
+
+    </div>
+    
+
+
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
