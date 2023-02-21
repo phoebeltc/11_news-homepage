@@ -1,22 +1,16 @@
 
 import Header from "../Header/Header";
+import Headline from "../Headline/Headline";
 
 function App() {
   return (
     <div className="App">
     <Header />
+
     <div>
-    {/* Topic */}
-    <div>
-
-    The Bright Future of Web 3.0?
-
-    We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-    But is it really fulfilling its promise?
-
-    Read more
-      
-    </div>
+      <div>
+        <Headline />
+      </div>
 
 
     {/* New */}
@@ -35,7 +29,7 @@ function App() {
     </div>
 
     </div>
-    
+
     {/* Article */}
     <div>
     01

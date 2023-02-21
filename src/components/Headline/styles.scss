@@ -1,0 +1,16 @@
+@import '../../sass/variables.scss';
+
+.headline-img {
+    width: 100%;
+}
+
+.button {
+    background-color: $red;
+    border: none;
+    color: $white;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    letter-spacing: 4.38px;
+    font-weight: 700;
+}
