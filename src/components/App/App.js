@@ -1,4 +1,5 @@
 
+import Articles from "../Articles/Articles";
 import Header from "../Header/Header";
 import Headline from "../Headline/Headline";
 import News from "../News/News";
@@ -17,29 +18,17 @@ function App() {
         </div>
     </div>
 
-    {/* Article */}
-    <div>
-    01
-    Reviving Retro PCs
-    What happens when old PCs are given modern upgrades?
-
-    02
-    Top 10 Laptops of 2022
-    Our best picks for various needs and budgets.
-
-    03
-    The Growth of Gaming
-    How the pandemic has sparked fresh opportunities.
-
+    <div className="articles-container">
+    <Articles />
     </div>
     
 
 
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <p className="attribution">
+    <div>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</div> 
+    <div>Coded by <a href="#">Phoebe Leung</a>.</div>
+  </p>
     </div>
   );
 }
