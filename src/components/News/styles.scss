@@ -1,0 +1,26 @@
+@import '../../sass/variables.scss';
+
+.news-container {
+    background-color: $dark-blue;
+    padding: 1.438em 1.438em 0 1.438em;
+    margin-top: 4rem;
+    @media (min-width: $layout-breakpoints-small) {
+        margin: 0;
+    }
+}
+
+.new-box {
+    border-bottom: 1px solid $blue;
+    padding: 2.188em 0;
+    &:last-child {
+        border: 0;
+    }
+    @media (min-width: $layout-breakpoints-small) {
+        padding: 1.875em 0;
+    }
+}
+
+.new-content {
+    color: $grey;
+    margin-bottom: 0;
+}

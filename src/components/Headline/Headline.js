@@ -8,11 +8,11 @@ const Headline = () => {
         <img src={process.env.PUBLIC_URL + '/images/image-web-3-desktop.jpg'} alt="Web3" className='headline-img'></img>   
     </picture>
 
-    <div>
-        <h1>The Bright Future of Web 3.0?</h1>
-        <div>
+    <div className='headline-box'>
+        <h1 className='headline-title'>The Bright Future of Web 3.0?</h1>
+        <div className='headline-content'>
             <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-    But is it really fulfilling its promise?</p>
+            But is it really fulfilling its promise?</p>
             <button className='button'>Read more</button>
         </div>
     </div>
